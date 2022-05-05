@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mapbox Demo</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+
+  <!-- Customization files -->
+
+  <link href='custom.css' rel='stylesheet' />
+  <!-- Be sure to set the API key and layer style in the JS file -->
+
+</head>
+
+<body>
+  <!-- This is where your map goes -->
+
+<div id='map'></div>
+
+<!-- This creates space for the legend -->
+<div class='map-overlay' id='legend'></div>
+<!-- INFOBOX - Comment out to delete -->
+<div class='map-overlay' id='infobox'><h3>Infobox</h3><div id='infobox_content'><p>Hover over a point </p></div></div>
+
+<nav id="menu"></nav>
+
+<!-- This creates space for the slider -->
+<div id='console'>
+  <h3>Timeline for Partition Texts</h3>
+  <p>Slide through the periods to see what locations are written about. </p>
+  <div class='session' id='sliderbar'>
+  <h5>Period: <label id='active-temporality'></label></h5>
+  <input id='slider' class='row' type='range' min='1' max='5' step='1' value='1' />
+</div>
+</div>
+
+<script src='custom.js'></script>
+
+</body>
+
+</html>
