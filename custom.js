@@ -5,7 +5,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlzaHRoYWRhcyIsImEiOiJjbDF3NXd0NzcxNXN6M2lxd
 //Set the initial map view
 const map = new mapboxgl.Map({
   container: 'map', // container ID
-  style: 'mapbox://styles/joostburgers/cl1w8a046000q14rrrewcwdem', // style URL
+  style: 'mapbox://styles/ilamanish/cl2r6nsvb000c14p1x9wtvzwh', // style URL
   center: [77.0688997, 20.5272803], // starting position [lng, lat]
   zoom: 4, // starting zoom
   bearing: 0, //controls the left-right rotation of the map in degrees
